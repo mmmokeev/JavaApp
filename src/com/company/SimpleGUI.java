@@ -12,8 +12,9 @@ public class SimpleGUI extends JFrame{
     private JLabel label2 = new JLabel("Тренировки:");
     private JLabel label3 = new JLabel("Квартплата:");
     private JLabel label4 = new JLabel("Интернет:");
+    private JLabel label5 = new JLabel("Телефон:");
 
-    private JTextField[] input = new JTextField[5];
+    private JTextField[] input = new JTextField[6];
 
 
 //    JButton[] but = new JButton[i];
@@ -54,6 +55,9 @@ public class SimpleGUI extends JFrame{
         container.add(input[3]);
         container.add(label4);
         container.add(input[4]);
+        container.add(label5);
+        container.add(input[5]);
+
 
         //на кнопку вешаем слушатель и добавляем кнопку в контейнер
         button.addActionListener ( new ButtonEventListener());
