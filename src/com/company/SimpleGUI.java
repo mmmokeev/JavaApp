@@ -11,7 +11,7 @@ public class SimpleGUI extends JFrame{
     private JLabel label1 = new JLabel("Еда:");
     private JLabel label2 = new JLabel("Тренировки:");
     private JLabel label3 = new JLabel("Квартплата:");
-    private JLabel label4 = new JLabel("Интернет:");
+    private JLabel label4 = new JLabel("Сотик:");
 
     private JTextField[] input = new JTextField[5];
 
